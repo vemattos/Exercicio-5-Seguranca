@@ -1,0 +1,26 @@
+================================================================================
+                    CADERNO DE INTELIGÊNCIA - DESAFIOS FORENSES
+================================================================================
+INSTRUÇÕES:
+- O pacote contém 50 imagens fotorrealistas.
+- Procure pelas flags no formato FLAG{...}.
+- ATENÇÃO: Existem 15 perguntas abaixo. Exatamente 5 destas perguntas são ARMADILHAS (falsos positivos). Se a técnica descrita não estiver presente em nenhuma imagem, responda com "NÃO ENCONTRADA".
+
+PERGUNTAS:
+1. Qual é a flag oculta nos bits menos significativos (LSB) de uma das imagens PNG?
+2. Qual a flag extraída via Steghide utilizando uma senha contida nos metadados de uma das imagens?
+3. Qual a flag escondida nas coordenadas GPS (Latitude e Longitude) modificadas via EXIF?
+4. Qual é a flag contida em um arquivo compactado (ZIP) anexado de forma oculta no final (pós-EOF) de uma imagem?
+5. Qual a flag decodificada de uma string em Base64 armazenada na tag EXIF 'SerialNumber'?
+6. Qual a flag codificada com a cifra ROT13 inserida no metadado de Direitos Autorais (Copyright)?
+7. Qual a flag protegida por análise estatística DCT utilizando a ferramenta Outguess e uma chave secreta?
+8. Qual a flag codificada em Base32 e escondida no campo de metadados 'OwnerName'?
+9. Qual a flag escondida visualmente utilizando 1% de opacidade (Alpha channel) modificada no GIMP?
+10. Qual a flag invertida e codificada inserida manualmente no bloco de comentários (COM) via editor hexadecimal?
+11. Qual a verdadeira flag oculta em formato Hexadecimal na estrutura XMP (ignorando a flag falsa injetada no Comment)?
+12. Qual a flag contida em um arquivo PDF malicioso que foi renomeado e disfarçado com a extensão .jpg?
+13. Qual a flag armazenada em um chunk customizado (identificador 'cStg') dentro da estrutura de uma imagem PNG?
+14. Qual a flag anexada não nos bytes do arquivo, mas nos atributos estendidos (xattr) do sistema de arquivos?
+15. Qual a flag embutida em texto plano diretamente na camada RGB de uma imagem JPEG utilizando ferramentas web?
+
+================================================================================
